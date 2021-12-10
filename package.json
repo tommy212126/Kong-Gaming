@@ -1,0 +1,15 @@
+{
+  "name": "kong-gaming",
+  "version": "1.0.0",
+  "description": "gaming webiste",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abrar Muftah",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
