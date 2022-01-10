@@ -387,4 +387,12 @@ header {
   display: block;
 }
 
+.quantity {
+  position: relative;
+  top: .4rem;
+  /* background-color: red; */
+  right: 0;
+  width: 4rem;
+  height: auto;
+}
 /*End Game Page*/
