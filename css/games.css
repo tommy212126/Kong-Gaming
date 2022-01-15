@@ -189,4 +189,11 @@ header {
   font-size: 12px;
 }
 
+button.leave-a-rating {
+  margin-top: 1.3rem;
+  background: rgb(255,179,32);
+  background: linear-gradient(306deg, rgba(255,179,32,0.9403674522142732) 0%, rgba(255,32,95,1) 100%);    
+  color: #fff;
+}
+
 /* End Review */
