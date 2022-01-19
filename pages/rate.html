@@ -81,36 +81,36 @@
     <section class="page-section review-page spad">
       <div class="container">
         <div class="contact-message col-md-6 col-lg-8" data-aos="fade-up">
-          <h3>Leave a Reply</h3>
+          <h3>Rate the Game.</h3>
           <form id="contact" method="post">
             <div class="form-row">
               <div class="col-lg-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="First Name" />
+                <input type="text" required name="name" class="form-control" id="name" placeholder="First Name" />
                 <div class="required"></div>
               </div>
               <div class="col-lg-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Last Name" />
+                <input type="text" required name="name" class="form-control" id="name" placeholder="Last Name" />
                 <div class="required"></div>
               </div>
             </div>
 
             <!-- DROP DOWN FOR THE GAME -->
             <div class="form-group">
-              <input type="text" class="form-control" name="Email" id="Email" placeholder="Email" />
+              <input type="text" required class="form-control" name="Email" id="Email" placeholder="Email" />
               <div class="required"></div>
             </div>
 
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Name of Game" />
+              <input required type="number" class="form-control" name="subject" id="subject" placeholder="Rate the from 1/10" />
               <div class="required"></div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" name="message" placeholder="Review"></textarea>
+              <textarea class="form-control" rows="10" name="message" placeholder="Review"></textarea>
               <div class="required"></div>
             </div>
             <div class="text-center">
-              <button type="submit">Send Message</button>
+              <button type="submit">Send</button>
             </div>
           </form>
         </div>
